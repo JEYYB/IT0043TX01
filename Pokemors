@@ -55,101 +55,124 @@ Birthday: <input type = "date" name = "bday" id="bday">
 </tr>
 <tr>
     <td><center>1</center></td>
-    <td><center>Generatio 1</center></td>
+    <td><center>Generation Z </center></td>
     <td><center>Miranda</center></td>
-    <td><center><img src="blob:https://www.facebook.com/d68a6b5c-2255-46be-921b-13f9165457e0"</center></td>
+    <td><center><img src=blob:https://www.messenger.com/267c8be0-11d3-4e90-b536-28a1a56a6f20</center></td>
     <td bgcolor="sky blue"<center>Air</center></td>
-    <td><center>-</center></td>
-    <td><center>-</center></td>
-    <td><center>Lebron</center></td>
+    <td bgcolor="Eletric"<center>Eletric</center></td>
+    <td><center>lvl 1 crook</center></td>
+    <td><center>Mafia Boss</center></td>
     <td><center>JB</center></td>
     <td><center>07-06-2005</center></td>
 </tr>
 <tr>
     <td><center>2</center></td>
-    <td><center>Generatio 2</center></td>
-    <td><center>Bulbasur</center></td>
-    <td><center><img src="https://archives.bulbagarden.net/media/upload/thumb/f/fb/0001Bulbasaur.png/250px-0001Bulbasaur.png"</center></td>
-    <td bgcolor="grass"<center>Grass</center></td>
-    <td bgcolor="Poison"<center>Poison</center></td>
-    <td><center>-</center></td>
+    <td><center>Generation 1</center></td>
     <td><center>Ivysaur</center></td>
-    <td><center>Palaka</center></td>
+    <td><center><img src="https://archives.bulbagarden.net/media/upload/thumb/8/81/0002Ivysaur.png/375px-0002Ivysaur.png"</center></td>
+    <td bgcolor="grass"<center>Grass</center></td>
+    <td bgcolor="purple"<center>Poison</center></td>
+    <td><center>Bulbasur</center></td>
+    <td><center>Venusaur</center></td>
+    <td><center>palaka#2</center></td>
     <td><center>01-01-2024</center></td>
 </tr>
 <tr>
     <td><center>3</center></td>
-    <td><center>Generatio 3</center></td>
-    <td><center>charmander</center></td>
-    <td><center><img src="https://archives.bulbagarden.net/media/upload/thumb/2/27/0004Charmander.png/250px-0004Charmander.png"</center></td>
-    <td bgcolor="Poison"<center>Fire</center></td>
-    <td><center></center></td>
+    <td><center>Generation 7</center></td>
+    <td><center>Rowlet</center></td>
+    <td><center><img src="https://archives.bulbagarden.net/media/upload/thumb/0/0c/0722Rowlet.png/375px-0722Rowlet.png"</center></td>
+    <td bgcolor="grass"<center>Grass</center></td>
+    <td bgcolor="Flying"<center>Flying</center></td>
     <td><center>-</center></td>
-    <td><center>Charmeleon</center></td>
-    <td><center>Butiki</center></td>
+    <td><center>Dartrix</center></td>
+    <td><center>Quill</center></td>
     <td><center>01-01-2024</center></td>
 </tr>
 <tr>
     <td><center>4</center></td>
-    <td><center>Generatio 4</center></td>
-    <td><center>Squirtle</center></td>
-    <td><center><img src="https://archives.bulbagarden.net/media/upload/thumb/2/27/0004Charmander.png/250px-0004Charmander.png"</center></td>
-    <td bgcolor="blue"<center>Water</center></td>
-    <td><center></center></td>
+    <td><center>Generation 7</center></td>
+    <td><center>Litten</center></td>
+    <td><center><img src="https://archives.bulbagarden.net/media/upload/thumb/f/ff/0725Litten.png/375px-0725Litten.png"</center></td>
+    <td bgcolor="Fire"<center>Fire</center></td>
+    <td bgcolor=""<center></center></td>
     <td><center>-</center></td>
-    <td><center>Wartortle</center></td>
-    <td><center>Pagong</center></td>
-    <td><center>01-01-2024</center></td>
-</tr>
-<tr>
-    <td><center>4</center></td>
-    <td><center>Generatio 4</center></td>
-    <td><center>Caterpie</center></td>
-    <td><center><img src="https://archives.bulbagarden.net/media/upload/thumb/5/5e/0010Caterpie.png/250px-0010Caterpie.png"</center></td>
-    <td bgcolor="green"<center>Bug</center></td>
-    <td><center></center></td>
-    <td><center>-</center></td>
-    <td><center>Metapod</center></td>
-    <td><center>Higad</center></td>
+    <td><center>Torracat</center></td>
+    <td><center>Pusa</center></td>
     <td><center>01-01-2024</center></td>
 </tr>
 <tr>
     <td><center>5</center></td>
-    <td><center>Generatio 5</center></td>
-    <td><center>Weedle</center></td>
-    <td><center><img src="https://archives.bulbagarden.net/media/upload/thumb/3/36/0013Weedle.png/250px-0013Weedle.png"</center></td>
-    <td bgcolor="green"<center>Bug</center></td>
-    <td bgcolor="purple">Poison</center></td>
+    <td><center>Generation 7</center></td>
+    <td><center>Popplio</center></td>
+    <td><center><img src="https://archives.bulbagarden.net/media/upload/thumb/5/51/0728Popplio.png/375px-0728Popplio.png"</center></td>
+    <td bgcolor="Water"<center>Water</center></td>
     <td><center>-</center></td>
-    <td><center>Kakuna</center></td>
-    <td><center>Bulate</center></td>
+    <td><center>-</center></td>
+    <td><center>Brionne</center></td>
+    <td><center>Sea Lion</center></td>
     <td><center>01-01-2024</center></td>
 </tr>
 <tr>
     <td><center>6</center></td>
-    <td><center>Generatio 6</center></td>
-    <td><center>Pidgey</center></td>
-    <td><center><img src="https://archives.bulbagarden.net/media/upload/thumb/0/0c/0016Pidgey.png/250px-0016Pidgey.png"</center></td>
-    <td bgcolor="Normal"<center>Normal</center></td>
-    <td><center>Pidgeotto</center></td>
-    <td><center>Pidgeotto</center></td>
-    <td><center>Pidgeot</center></td>
-    <td><center>Kalapate</center></td>
+    <td><center>Generation 7</center></td>
+    <td><center>Pikipek</center></td>
+    <td><center><img src="https://archives.bulbagarden.net/media/upload/thumb/e/e3/0731Pikipek.png/375px-0731Pikipek.png"</center></td>
+    <td bgcolor="Fire"<center>Normal</center></td>
+    <td bgcolor="sky blue"<center>Flying</center></td>
+    <td><center>-</center></td>
+    <td><center>Trumbeak</center></td>
+    <td><center>Tariktik</center></td>
     <td><center>01-01-2024</center></td>
 </tr>
 <tr>
     <td><center>7</center></td>
-    <td><center>Generatio 7</center></td>
-    <td><center>Rattata</center></td>
-    <td><center><img src="https://archives.bulbagarden.net/media/upload/thumb/a/aa/0019Rattata.png/250px-0019Rattata.png"</center></td>
-    <td bgcolor="Dark"<center>Dark</center></td>
-    <td><center>Pidgeotto</center></td>
-    <td><center>Pidgeotto</center></td>
-    <td><center>Pidgeot</center></td>
-    <td><center>Kalapate</center></td>
+    <td><center>Generation 7</center></td>
+    <td><center>Yungoos</center></td>
+    <td><center><img src="https://archives.bulbagarden.net/media/upload/thumb/a/a9/0734Yungoos.png/375px-0734Yungoos.png"</center></td>
+    <td bgcolor="Normal"<center>Normal</center></td>
+    <td bgcolor="">-</center></td>
+    <td><center>-</center></td>
+    <td><center>Gumshoos</cente></td>
+    <td><center>Smolder</center></td>
     <td><center>01-01-2024</center></td>
 </tr>
-
+<tr>
+    <td><center>8</center></td>
+    <td><center>Generation 7</center></td>
+    <td><center>Vikavolt</center></td>
+    <td><center><img src="https://archives.bulbagarden.net/media/upload/thumb/c/c9/0738Vikavolt.png/375px-0738Vikavolt.png"</center></td>
+    <td bgcolor="Water"<center>Bug</center></td>
+    <td bgcolor="Eletric"<center>Eletric</center></td>
+    <td><center>Charjabug</center></td>
+    <td><center>-</center></td>
+    <td><center>The Beetles</center></td>
+    <td><center>01-01-2024</center></td>
+</tr>
+<tr>
+    <td><center>9</center></td>
+    <td><center>Generation 7</center></td>
+    <td><center>Lycanroc</center></td>
+    <td><center><img src="https://archives.bulbagarden.net/media/upload/thumb/b/b8/0745Lycanroc.png/375px-0745Lycanroc.png"</center></td>
+    <td bgcolor="Rock"<center>Rock</center></td>
+    <td bgcolor=""<center></center></td>
+    <td><center>Rockruff</center></td>
+    <td><center>-</center></td>
+    <td><center>Aspin</center></td>
+    <td><center>01-01-2024</center></td>
+</tr>
+<tr>
+    <td><center>10</center></td>
+    <td><center>Generation 9</center></td>
+    <td><center>Lechonk</center></td>
+    <td><center><img src="https://archives.bulbagarden.net/media/upload/thumb/7/75/0915Lechonk.png/375px-0915Lechonk.png"</center></td>
+    <td bgcolor="Bug"<center>Normal</center></td>
+    <td bgcolor=""<center></center></td>
+    <td><center>-</center></td>
+    <td><center>Oinkologne</center></td>
+    <td><center>Paksiw</center></td>
+    <td><center>01-01-2024</center></td>
+</tr>
 </table>
 
 
