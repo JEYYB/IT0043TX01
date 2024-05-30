@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7c1cfff2-db8d-44cd-8a13-cb2a4162fae6/dd2zouo-047f7b3f-b895-43ac-82a4-abb6ca12c52a.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzdjMWNmZmYyLWRiOGQtNDRjZC04YTEzLWNiMmE0MTYyZmFlNlwvZGQyem91by0wNDdmN2IzZi1iODk1LTQzYWMtODJhNC1hYmI2Y2ExMmM1MmEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.EFI6YQ0acRLpYHzupMAxV_N4KMcpNWT-_3RJ4TV-4eU");
+    background-position: center;
+    background-size: cover;
+  }
+.flex-container{
+  
+    height: 400px;
+    width: 80vw;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: r;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.box{
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    border: 2px black solid;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 3rem;
+    padding: 1px;
+}
+#box1{
+    background-color: pink;
+    text-align: center;
+}
+#box2{
+    background-color:gray ;
+}
+#box3{
+    background-color: blue;
+}
+#box4{
+    background-color: yellow;
+}
+#box5{
+background-color: blueviolet;
+}
+#box6{
+background-color: skyblue;
+}
+#box7{
+background-color: brown;
+
+}
+#box8{
+background-color: #FFBF00;
+}
+#box9{
+background-color:#FFFDD0
+
+}
+#box10{
+background-color:#FFB6C1;
+
+}
+#box11{
+background-color: #7C6EBB;
+
+}
+#box12{
+background-color:#FFFFFF;
+
+}
+.box:hover{
+background-image: url(https://www.risevision.com/hubfs/Imported_Blog_Media/Pokemon-Template-Poke-Stop-test.gif);
+background-size: cover;
+background-position: center;
+}
+
+
