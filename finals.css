@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: 0.5s all ease;
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    text-decoration: none;
+    z-index: 1000;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+nav:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+.name {
+    font-size: 1rem;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+}
+
+.nav-links li {
+    margin-left: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    position: relative;
+}
+
+.Home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    max-width: 100%;
+}
+
+.Home-Container {
+    display: flex;
+    color: white;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+
+.Welcome {
+    color: white;
+    font-size: 4rem;
+    background-color: grey;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-family: Impact;
+    text-align: center;
+    padding: 20px;
+}
+
+.text-content {
+    max-width: 600px;
+    color: black;
+    border: 1px solid white;
+    background-color: #ADD8E6;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Montserrat';
+}
+
+.text-content h2, .text-content p {
+    margin: 0;
+}
+
+.profile-image img {
+    border-radius: 15px;
+    border: 2px solid white;
+    width: 450px;
+}
+
+.text-content h2 {
+    font-size: 2rem;
+    padding: 20px;
+}
+
+.text-content p {
+    max-width: 500px;
+}
+
+.About {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    max-width: 100%;
+}
+    
+.About-me {
+    margin-top: 10rem;
+    color: white;
+    background-color: grey;
+    border: 2px solid white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4rem;
+    border-radius: 20px;
+    max-width: 50%;
+    text-align: center; 
+    padding: 20px;
+}
+
+.about-myself {
+    color: white;
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 1.5rem;
+    padding: 50px;
+}
+
+.My-Projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    max-width: 100%;
+}
+
+.Myy-Projects {
+    margin-top: 10rem;
+    color: white;
+    background-color: grey;
+    border: 2px solid white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4rem;
+    border-radius: 20px;
+    max-width: 50%;
+    text-align: center; 
+    padding: 20px;
+}
+
+.Activities-Container {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 150px;
+    gap: 30px;
+    
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2rem;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 300px;
+    border: 5px solid skyblue;
+    border-radius: 10px;
+}
+.Social-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    max-width: 100%;
+}
+.Social-title1{
+    margin-top: 10rem;
+    color: white;
+    background-color: grey;
+    border: 2px solid white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4rem;
+    border-radius: 20px;
+    max-width: 50%;
+    text-align: center; 
+    padding: 20px;
+}
+.Social-Pictures{
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    margin-top: 7rem;
+    margin-bottom: 100px;
+
+}
+.Picture{
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    border-color: black;    
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.Contact-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    max-width: 100%;
+}
+.Contact-Info{
+    margin-top: 10rem;
+    color: white;
+    background-color: grey;
+    border: 2px solid white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4rem;
+    border-radius: 20px;
+    max-width: 50%;
+    text-align: center; 
+    padding: 20px;
+}
+.Contact-container{
+    font-size: 1rem;
+    color: white;
+    text-align: start;
+    margin-top: 5rem   ;
+
+}
+.info{
+    border: 3px solid rgb(21, 198, 217);
+    font-size: 2rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 5px;
+}
+#email{
+    color: red;
+}
+#number{
+    color: orange;
+}
+#school{
+    color: green;
+}
+#address{
+    color: brown;
+}
+
+.FAQ-Text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    max-width: 100%;
+    text-align: center;
+    
+}
+.FAQ-title{
+    margin-top: 15rem;
+    color: white;
+    background-color: grey;
+    border: 2px solid white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4rem;
+    border-radius: 20px;
+    max-width: 50%; 
+    padding: 20px;
+   
+}
+.FAQ-Container{
+    color: yellow;
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 15px;
+
+}
+
+.Question1{
+border: 2px solid rgb(53, 246, 82);
+border-radius: 15px;
+margin-left: 10rem;
+margin-right: 10rem;
+padding: 20px;
+margin-bottom: 3rem;
+
+
+}
+.Question2{
+    border: 2px solid rgb(53, 246, 82);
+    border-radius: 15px;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding: 20px;
+    margin-bottom: 3rem;
+}
+.Question3{
+    border: 2px solid rgb(53, 246, 82);
+    border-radius: 15px;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding: 20px;
+    margin-bottom: 3rem;
+}
+.Question4{
+    border: 2px solid rgb(53, 246, 82);
+    border-radius: 15px;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding: 20px;
+    margin-bottom: 3rem;
+}
+.Question5{
+    border: 2px solid rgb(53, 246, 82);
+border-radius: 15px;
+margin-left: 10rem;
+margin-right: 10rem;
+padding: 20px;
+margin-bottom: 3rem;
+}
+.Question6{
+    border: 2px solid rgb(53, 246, 82);
+border-radius: 15px;
+margin-left: 10rem;
+margin-right: 10rem;
+padding: 20px;
+margin-bottom: 3rem;
+}
+
+.Answer{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: underline solid blue;
+
+}
+#white{
+    color: white;
+}@media (max-width: 900px){
+    nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        right: 0;
+        background-color: rgb(0, 0, 0);
+        width: 200px;
+        border: 1px solid rgb(255, 255, 255);
+    }
+
+    nav ul.show {
+        display: flex;
+    }
+
+    .menu-icon {
+        display: flex;
+    }
+}
