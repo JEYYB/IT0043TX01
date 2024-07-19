@@ -469,7 +469,7 @@ margin-bottom: 3rem;
    }
 
  }
- @media (max-width: 1086px){
+ @media screen and (max-width: 1086px){
     .Picture{
         height: 200px;
     }
@@ -479,7 +479,7 @@ margin-bottom: 3rem;
         width: 100%;
     }
  }
-@media (max-width:996px)  {
+@media (max-width: 996px)  {
     
     .Activities-Container{
         grid-template-columns: repeat(2,1fr);
