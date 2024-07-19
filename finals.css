@@ -230,6 +230,7 @@ nav {
     justify-items: center;
     gap: 20px;
     
+    
 }
 
 .button {
@@ -562,41 +563,43 @@ margin-bottom: 3rem;
 @media (max-width:749px){
     .Picture{
         height: 120px}
+        #damn1:hover{
+            color: red;
+            text-decoration: underline;
+            font-size: 1rem;
+        }
+        #damn2:hover{
+            color: red;
+            text-decoration: underline;
+            font-size: 1rem;
+        }
+        #damn3:hover{
+            color: red;
+            text-decoration: underline;
+            font-size: 1rem;
+        }
+        #damn4:hover{
+            color: red;
+            text-decoration: underline;
+            font-size: 1rem;
+        }
+        #damn5:hover{
+            color: red;
+            text-decoration: underline;
+            font-size: 1rem;
+        }
+        #damn6:hover{
+            color: red;
+            text-decoration: underline;
+            font-size: 1.2rem;
+            
+        }
+        .Activities-Container{
+            grid-template-columns: repeat(1,1fr);
+        }
     }
-    #damn1:hover{
-        color: red;
-        text-decoration: underline;
-        font-size: 1rem;
-    }
-    #damn2:hover{
-        color: red;
-        text-decoration: underline;
-        font-size: 1rem;
-    }
-    #damn3:hover{
-        color: red;
-        text-decoration: underline;
-        font-size: 1rem;
-    }
-    #damn4:hover{
-        color: red;
-        text-decoration: underline;
-        font-size: 1rem;
-    }
-    #damn5:hover{
-        color: red;
-        text-decoration: underline;
-        font-size: 1rem;
-    }
-    #damn6:hover{
-        color: red;
-        text-decoration: underline;
-        font-size: 1.2rem;
-    }
-    .Activities-Container{
-        grid-template-columns:repeat(1,1fr) ; 
-        
-    }
+    
+   
 
 @media (max-width:769px){
   
