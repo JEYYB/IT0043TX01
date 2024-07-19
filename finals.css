@@ -25,10 +25,50 @@ nav {
     border-bottom: 2px solid white;
 }
 
-nav:hover {
+#damn1:hover{
+    color: red;
     text-decoration: underline;
+    font-size: 1.2rem;
 }
-
+#damn2:hover{
+    color: red;
+    text-decoration: underline;
+    font-size: 1.2rem;
+}
+#damn3:hover{
+    color: red;
+    text-decoration: underline;
+    font-size: 1.2rem;
+}
+#damn4:hover{
+    color: red;
+    text-decoration: underline;
+    font-size: 1.2rem;
+}
+#damn5:hover{
+    color: red;
+    text-decoration: underline;
+    font-size: 1.2rem;
+}
+#damn6:hover{
+    color: red;
+    text-decoration: underline;
+    font-size: 1.2rem;
+}
+#name:hover{
+    color: red;
+}
+.button:hover{
+    background-image: url(https://i.pinimg.com/736x/93/8e/0f/938e0f24a2943fc1606e340033b45d8b.jpg);
+    background-position: center;
+    background-size: cover;
+    transform: scale(1.1);
+    border: 4px solid red;
+    border-radius: 15px;
+}
+.Picture:hover{
+    transform: scale(1.1);
+}
 .container {
     display: flex;
     justify-content: space-between;
@@ -157,11 +197,14 @@ nav:hover {
 
 .My-Projects {
     display: flex;
-    flex-direction: column;
+    text-align: center;
     justify-content: center;
-    align-items: center;
-    margin-top: 5px;
-    max-width: 100%;
+
+}
+@media  (max-width: 1460px) {
+    .My-Projects{
+        padding-left: 30px;
+    }
 }
 
 .Myy-Projects {
@@ -173,8 +216,8 @@ nav:hover {
     font-size: 4rem;
     border-radius: 20px;
     max-width: 50%;
-    text-align: center; 
     padding: 20px;
+    justify-content: center;
 }
 
 .Activities-Container {
@@ -182,10 +225,9 @@ nav:hover {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding-bottom: 40px;
-    justify-content: center;
-    align-items: center;
-    padding-left: 150px;
-    gap: 30px;
+    justify-items: center;
+    gap: 20px;
+    
     
 }
 
@@ -200,9 +242,10 @@ nav:hover {
     margin: 4px 2px;
     cursor: pointer;
     width: 300px;
-    border: 5px solid skyblue;
+    border: 5px solid rgb(252, 255, 252);
     border-radius: 10px;
 }
+
 .Social-title{
     display: flex;
     flex-direction: column;
@@ -225,7 +268,7 @@ nav:hover {
 }
 .Social-Pictures{
     display: flex;
-    gap: 200px;
+    gap: 150px;
     justify-content: center;
     margin-top: 7rem;
     margin-bottom: 100px;
@@ -376,23 +419,177 @@ margin-bottom: 3rem;
 }
 #white{
     color: white;
-}@media (max-width: 900px){
-    nav ul {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 80px;
-        right: 0;
-        background-color: rgb(0, 0, 0);
-        width: 200px;
-        border: 1px solid rgb(255, 255, 255);
-    }
+}
+.Question1:hover{
+    transform: scale(1.1);
+}
+.Question2:hover{
+    transform: scale(1.1);
+}
+.Question3:hover{
+    transform: scale(1.1);
+}
+.Question4:hover{
+    transform: scale(1.1);
+}
+.Question5:hover{
+    transform: scale(1.1);
+}
+.Question6:hover{
+    transform: scale(1.1);
+}
 
-    nav ul.show {
-        display: flex;
-    }
+  .Answer:hover{
+    display: block;
+    color: red;
+  }
+  .Project-Container{
+    margin: auto;
+  }
 
-    .menu-icon {
-        display: flex;
+ @media (max-width: 1069px){
+   .Welcome{
+    font-size: 3rem;
+   }
+   .text-content{
+    font-size: 1.5rem;
+   }
+   .Home-Container{
+    width: 80%;
+   }
+   .about-myself{
+    margin-left: 50px;
+    margin-right: 50px
+   }
+   .Activities-Container{
+    margin-left: 50px;
+    margin-right: 50px  
+   }
+
+ }
+ @media (max-width: 1086px){
+    .Picture{
+        height: 200px;
+    }
+ }
+ @media (max-width: 999px) {
+    .profile-image img{
+        width: 100%;
+    }
+ }
+@media (max-width:996px)  {
+    
+    .Activities-Container{
+        grid-template-columns: repeat(2,1fr);
+
     }
 }
+@media (max-width: 900px){
+    .Picture{
+        height: 150px;
+    }
+    .Welcome{
+        font-size: 2rem;
+    }
+    .text-content{
+        font-size: 1.3rem;
+    }
+    .About-me{
+        font-size: 3.5rem;
+    }
+    .Contact-Info{
+        font-size: 3rem;
+    }
+}
+@media (max-width: 759px){
+    .about-myself{
+        text-align: start;
+    }
+}
+@media (max-width: 955px){
+    .text-content h2{
+        font-size: 1.8rem;
+        text-align: start;
+        justify-content: center;
+    }
+}
+@media (max-width:862px){
+    .text-content h2{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width:808px){
+    .text-content h2{
+        font-size: 1.2rem;
+    
+    }
+    .text-content p{
+        font-size: 1.1rem;
+    }
+    .Myy-Projects{
+        font-size: 3rem;
+    }
+    .About-me{
+        font-size: 3rem;
+    }
+    .Social-title1{
+        font-size: 3rem;
+    }
+    .Contact-Info{
+        font-size: 2.5rem
+    }
+    
+
+}
+@media (max-width:785px){
+    .name{
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    #damn1,#damn2,#damn3,#damn4,#damn5,#damn6{
+        font-size: 0.8rem;
+    }
+    .button{
+        font-size: 1.5rem;
+    }
+    .info{
+        font-size: 1.5rem;
+    }
+
+}
+@media (max-width:749px){
+    .Picture{
+        height: 120px}
+    }
+    #damn1:hover{
+        color: red;
+        text-decoration: underline;
+        font-size: 1rem;
+    }
+    #damn2:hover{
+        color: red;
+        text-decoration: underline;
+        font-size: 1rem;
+    }
+    #damn3:hover{
+        color: red;
+        text-decoration: underline;
+        font-size: 1rem;
+    }
+    #damn4:hover{
+        color: red;
+        text-decoration: underline;
+        font-size: 1rem;
+    }
+    #damn5:hover{
+        color: red;
+        text-decoration: underline;
+        font-size: 1rem;
+    }
+    #damn6:hover{
+        color: red;
+        text-decoration: underline;
+        font-size: 1.2rem;
+    }
+
